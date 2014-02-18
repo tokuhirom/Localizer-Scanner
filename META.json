@@ -43,15 +43,28 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "Class::Accessor::Lite" : "0.05",
+            "perl" : "5.010_001"
          }
       },
       "test" : {
          "requires" : {
+            "File::Temp" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/tokuhirom/Localizer-Scanner/issues"
+      },
+      "homepage" : "https://github.com/tokuhirom/Localizer-Scanner",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tokuhirom/Localizer-Scanner.git",
+         "web" : "https://github.com/tokuhirom/Localizer-Scanner"
+      }
+   },
    "version" : "0.03"
 }

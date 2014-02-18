@@ -7,6 +7,8 @@ our $VERSION = "0.03";
 1;
 __END__
 
+=for stopwords moznion
+
 =encoding utf-8
 
 =head1 NAME
